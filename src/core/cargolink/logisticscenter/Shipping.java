@@ -35,4 +35,12 @@ private Vehicle vehicle;
         
         this.client.add(Client);
     }
+
+  public boolean addClient(Client client){
+        if(!clients.contains(client)){
+          clients.add(client);
+          return true;
+        }
+        else return false;
+    }
 }
