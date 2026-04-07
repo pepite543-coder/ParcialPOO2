@@ -8,6 +8,6 @@ package core.cargolink.vehicle;
  *
  * @author valbuenas
  */
-public class Truck {
+public class Truck extends V{
     
 }

@@ -4,10 +4,31 @@
  */
 package core.cargolink.vehicle;
 
+import core.cargolink.logisticscenter.Shipping;
+import java.util.ArrayList;
+
 /**
  *
  * @author valbuenas
  */
-public class Vehicle {
+public abstract class Vehicle  {
+    
+    protected double cargoCapacity;
+    protected ArrayList<Shipping> shippings;
+
+    public double getCargoCapacity() {
+        return cargoCapacity;
+    }
+
+    public ArrayList<Shipping> getShippings() {
+        return shippings;
+    }
+
+    public Vehicle(double cargoCapacity, ArrayList<Shipping> shippings) {
+        this.cargoCapacity = cargoCapacity;
+        this.shippings = shippings;
+        
+    }
+    
     
 }
