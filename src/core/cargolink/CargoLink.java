@@ -49,5 +49,20 @@ private ArrayList<Vehicle> vehicles;
         return false;
     }
 
+    public Client getClient(int index){
+        return clients.get(index);
+    }
+
+    public LogisticsCenter getLogisticsCenter(int index){
+        return centers.get(index);
+    }
+    
+    public Vehicle getVehicle(int index){
+        return vehicles.get(index);
+    }
+
+    public ArrayList<Vehicle> getVehicles() {
+        return vehicles;
+    }
 
 }
