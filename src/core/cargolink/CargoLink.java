@@ -9,5 +9,7 @@ package core.cargolink;
  * @author valbuenas
  */
 public class CargoLink {
-    
+private ArrayList<Client> clients;
+private ArrayList<LogisticsCenter> centers;
+private ArrayList<Vehicle> vehicles; 
 }
