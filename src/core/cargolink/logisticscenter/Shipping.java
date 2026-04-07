@@ -21,4 +21,18 @@ private Date deliveryDate;
 private Status status;
 private ArrayList<Package> packages;
 private Vehicle vehicle;   
+
+  public Shipping(String code, Client client, String originCenter, String destinationCenter, Date registrationDate, Date deliveryDate, Status status, Vehicle vehicle) {
+        this.code = code;
+        this.client = client;
+        this.originCenter = originCenter;
+        this.destinationCenter = destinationCenter;
+        this.registrationDate = registrationDate;
+        this.deliveryDate = deliveryDate;
+        this.status = status;
+        this.vehicle = vehicle;
+        packages = new ArrayList<>();
+        
+        this.client.add(Client);
+    }
 }
