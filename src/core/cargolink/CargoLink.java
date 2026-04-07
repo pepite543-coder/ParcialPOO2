@@ -18,5 +18,36 @@ public class CargoLink {
 private ArrayList<Client> client;
 private ArrayList<LogisticsCenter> centers;
 private ArrayList<Vehicle> vehicles; 
-}
 
+    public CargoLink() {
+        this.client = new ArrayList<>();
+        this.centers = new ArrayList<>();
+        this.vehicles = new ArrayList<>();
+    }
+    
+        public boolean addClient(Client client) {
+        if (!this.client.contains(client)) {
+            this.client.add(client);
+            return true;
+        }
+        return false;
+    }
+        
+        public boolean addLogisticsCenter(LogisticsCenter center) {
+        if (!this.centers.contains(center)) {
+            this.centers.add(center);
+            return true;
+        }
+        return false;
+    }
+        
+        public boolean addVehicle(Vehicle vehicle) {
+        if (!this.vehicles.contains(vehicle)) {
+            this.vehicles.add(vehicle);
+            return true;
+        }
+        return false;
+    }
+
+
+}
