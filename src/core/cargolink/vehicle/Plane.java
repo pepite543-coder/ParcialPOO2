@@ -9,6 +9,6 @@ package core.Vehicle;
  * @author aforerod
  */
 public class Plane extends Vehicle {
-   private String licensePlate;
+   private String code;
    
 }
