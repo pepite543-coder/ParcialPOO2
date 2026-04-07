@@ -9,5 +9,5 @@ package core.cargolink.vehicle;
  * @author valbuenas
  */
 public class Plane {
-    holaaaaa
+    
 }
