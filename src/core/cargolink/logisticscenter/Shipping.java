@@ -13,7 +13,7 @@ import java.util.Date;
  */
 public class Shipping {
 private String code;
-private Client client;
+private Client clients;
 private String originCenter; 
 private String destinationCenter;
 private Date registrationDate;
