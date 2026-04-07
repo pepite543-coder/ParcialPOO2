@@ -39,6 +39,17 @@ public class Client {
         return false;
     }
 
+    public Shipping getShipping(int index) {
+        return shippings.get(index);
+    }
+
+    public ArrayList<Shipping> getShippings() {
+        return shippings;
+    }
+
+    public String getShipping(String s00001) {
+        return "";
+    }
     
     
 }
