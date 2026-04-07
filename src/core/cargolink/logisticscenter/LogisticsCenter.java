@@ -3,11 +3,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package core.cargolink.logisticscenter;
+import java.util.ArrayList;
 
 /**
  *
- * @author valbuenas
+ * @author aforerod
  */
 public class LogisticsCenter {
-    
+   private String name;
+   private String city;
+   private String country;
+   private float latitude;
+   private float longitude;
+   private ArrayList<Shipping> shippings;
 }
