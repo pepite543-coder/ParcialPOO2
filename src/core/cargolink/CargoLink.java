@@ -3,7 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package core.cargolink;
-
+import core.Vehicle.Vehicle;
+import java.util.ArrayList;
 /**
  *
  * @author valbuenas
