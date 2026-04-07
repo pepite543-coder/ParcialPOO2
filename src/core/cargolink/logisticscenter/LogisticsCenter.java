@@ -9,5 +9,10 @@ package core.cargolink.logisticscenter;
  * @author valbuenas
  */
 public class LogisticsCenter {
-    
+private String name;
+private String city;
+private String country;
+private float latitude;
+private float longitude;
+private ArrayList<Shipping> shippings;  
 }
