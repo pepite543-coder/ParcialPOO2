@@ -14,11 +14,30 @@ import java.util.ArrayList;
  * @author aforerod
  */
 public class Client {
+
+
     private int id;
     private String name;
     private String address;
     private String email;
     private ArrayList<Shipping> shippings;
+    
+        public Client(int id, String name, String address, String email) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.email = email;
+         this.shippings = new ArrayList<>();
+        
+    }
+        
+    public boolean addJuego(Shipping shipping) {
+        if (!this.shippings.contains(shipping)) {
+            this.shippings.add(shipping);
+            return true;
+        }
+        return false;
+    }
 
     
     
