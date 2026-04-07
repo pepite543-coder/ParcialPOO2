@@ -4,11 +4,19 @@
  */
 package core.cargolink.Vehicle;
 
+import core.cargolink.logisticscenter.Shipping;
+import core.cargolink.vehicle.Vehicle;
+import java.util.ArrayList;
+
 /**
  *
  * @author aforerod
  */
 public class Plane extends Vehicle {
    private String code;
+
+    public Plane(double cargoCapacity, ArrayList<Shipping> shippings) {
+        super(cargoCapacity, shippings);
+    }
    
 }
