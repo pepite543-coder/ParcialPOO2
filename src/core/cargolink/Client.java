@@ -28,7 +28,7 @@ public class Client {
         this.address = address;
         this.email = email;
          this.shippings = new ArrayList<>();
-        
+        this.shippings.add(Shipping);
     }
         
     public boolean addJuego(Shipping shipping) {
