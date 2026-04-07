@@ -8,6 +8,9 @@ package core.cargolink.logisticscenter;
  *
  * @author valbuenas
  */
-public class Status {
-    
+public enum Status {
+    IN_TRANSIT,
+    DELIVERED,
+    CANCELED
 }
+
