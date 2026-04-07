@@ -9,5 +9,9 @@ package core.cargolink;
  * @author valbuenas
  */
 public class Client {
-    
+private int id;
+private String name;
+private String address;
+private String email;
+private ArrayList<Shipping> shippings;   
 }
