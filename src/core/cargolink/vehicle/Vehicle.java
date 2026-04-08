@@ -27,6 +27,7 @@ public abstract class Vehicle  {
     public Vehicle(double cargoCapacity, ArrayList<Shipping> shippings) {
         this.cargoCapacity = cargoCapacity;
         this.shippings = shippings;
+         this.shippings.add(Shipping);
         
     }
     
