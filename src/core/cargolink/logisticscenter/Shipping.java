@@ -43,4 +43,12 @@ private Vehicle vehicle;
         }
         else return false;
     }
+
+  public boolean addVehicle(Vehicle vehicle){
+  if(!vehicle.contains(vehicle)){
+  vehicle.add(vehicle)
+    return true;
+  }
+    else return false;
+  }
 }
